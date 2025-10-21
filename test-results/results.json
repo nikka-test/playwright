@@ -1,0 +1,257 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ngeneta\\OneDrive - nt.doehle-iom.com\\Desktop\\playwright\\playwright.config.js",
+    "rootDir": "C:/Users/ngeneta/OneDrive - nt.doehle-iom.com/Desktop/playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/ngeneta/OneDrive - nt.doehle-iom.com/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ngeneta/OneDrive - nt.doehle-iom.com/Desktop/playwright/tests",
+        "testIgnore": [
+          "**/node_modules/**"
+        ],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/ngeneta/OneDrive - nt.doehle-iom.com/Desktop/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/ngeneta/OneDrive - nt.doehle-iom.com/Desktop/playwright/tests",
+        "testIgnore": [
+          "**/node_modules/**"
+        ],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "shiftcare\\dashboard\\dashboard.spec.ts",
+      "file": "shiftcare/dashboard/dashboard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "can access dashboard after login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8061,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:34.156Z INFO [TEST]: Starting test: can access dashboard after login\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:34.158Z INFO [SESSION]: Attempting to use saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:34.159Z INFO [SESSION]: Loading saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:34.170Z INFO [SESSION]: Saved session loaded successfully\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:40.348Z INFO: Saved session is still valid!\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:41.940Z INFO [TEST]: Test completed: can access dashboard after login (7784ms)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-21T05:18:33.815Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "38758ea43bc42061356b-0c7f887c81d256547ead",
+          "file": "shared/BaseTest.ts",
+          "line": 121,
+          "column": 10
+        },
+        {
+          "title": "dashboard shows user information",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7082,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:42.118Z INFO [TEST]: Starting test: dashboard shows user information\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:42.118Z INFO [SESSION]: Attempting to use saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:42.118Z INFO [SESSION]: Loading saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:42.125Z INFO [SESSION]: Saved session loaded successfully\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:47.712Z INFO: Saved session is still valid!\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:49.039Z INFO [TEST]: Test completed: dashboard shows user information (6921ms)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-21T05:18:41.954Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "38758ea43bc42061356b-17c258d413ae32acb638",
+          "file": "shared/BaseTest.ts",
+          "line": 121,
+          "column": 10
+        },
+        {
+          "title": "dashboard navigation works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8776,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:49.203Z INFO [TEST]: Starting test: dashboard navigation works\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:49.204Z INFO [SESSION]: Attempting to use saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:49.204Z INFO [SESSION]: Loading saved session...\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:49.211Z INFO [SESSION]: Saved session loaded successfully\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:55.492Z INFO: Saved session is still valid!\n"
+                    },
+                    {
+                      "text": "ℹ️ 2025-10-21T05:18:57.833Z INFO [TEST]: Test completed: dashboard navigation works (8630ms)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-21T05:18:49.055Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "38758ea43bc42061356b-4a17f3ba859b27b77e1d",
+          "file": "shared/BaseTest.ts",
+          "line": 121,
+          "column": 10
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-21T05:18:31.940Z",
+    "duration": 25937.651000000013,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
